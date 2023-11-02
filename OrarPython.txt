@@ -1,0 +1,37 @@
+import time 
+print("Hi, this is a multi-use small program!\n") 
+time.sleep(1)
+luni = "08:00-10:00 :\n10:00-12:00 :\n12:00-14:00 :\n14:00-16:00 : Programare - laborator\n16:00-18:00 :\n" 
+marti = "08:00-10:00 : Algebra - curs\n10:00-12:00 : CCP - curs\n12:00-14:00 : Programare - curs\n14:00-16:00 :\n16:00-18:00 : Informatica - curs\n"
+miercuri = "08:00-10:00 : Informatica - laborator\n10:00-12:00 : Algebra - seminar\n12:00-14:00 : Analiza - seminar\n14:00-16:00 :\n16:00-18:00 :\n"
+joi = "08:00-10:00 : Sport\n10:00-12:00 :\n12:00-14:00 : CCP - laborator\n14:00-16:00 : Fizica - seminar\n16:00-18:00 :\n"
+vineri = "08:00-10:00 : Fizica - curs\n10:00-12:00 : Analiza - curs\n12:00-14:00 :\n14:00-16:00 :\n16:00-18:00 :\n"
+def menu():
+    print("0.exit\n1.schedule\n")
+    choice = int(input("Choose an option: "))
+    if choice == 0:
+        exit()
+    elif choice == 1:
+        days()    
+def days():
+    print("0.exit\n1.luni\n2.marti\n3.miercuri\n4.joi\n5.vineri\n")
+    time.sleep(1)
+    choice = int(input("Choose an option: "))
+    if choice == 0:
+        exit()
+    elif choice == 1:
+        print(luni)
+        menu()
+    elif choice == 2:
+        print(marti)
+        menu()
+    elif choice == 3:
+        print(miercuri)
+        menu()
+    elif choice == 4:
+        print(joi)
+        menu()
+    elif choice == 5:
+        print(vineri)
+        menu()            
+menu()
