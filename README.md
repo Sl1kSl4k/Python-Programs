@@ -33,6 +33,6 @@ This repository is strictly based on the programming language Python:
 ## Getting Started
 To get started with any of the projects in this repository, follow these steps:
 
-   git clone https://github.com/Sl1kSl4k/Python-Programs.git
-   cd Python-Programs
-   python python_program_name.py  ---(use the name of the program)---
+  ### git clone https://github.com/Sl1kSl4k/Python-Programs.git
+  ### cd Python-Programs
+  ### python python_program_name.py  ---(use the name of the program)---
